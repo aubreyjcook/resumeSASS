@@ -1,0 +1,145 @@
+/* Fonts
+    Headers: font-family: 'Righteous', cursive;
+    Paragraphs: font-family: 'Prompt', sans-serif;
+*/
+
+
+/* Colors
+    
+*/
+
+* {
+    /* clears inherited padding/margin */
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* begin content general styling */
+
+body {
+    font-family: 'Prompt', sans-serif;
+    margin: 20px;
+    background-color: white;
+}
+
+.container {
+    max-width: 100%;
+    margin: auto;
+    background-color: white;
+    border: 15px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+footer,
+header {
+    padding: 15px;
+    background-color: white;
+    color: black;
+}
+
+
+/* end of content general styling */
+
+
+/* begin font general styling */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Righteous', cursive;
+    color: black;
+}
+
+p {
+    font-family: 'Prompt', sans-serif;
+    padding: 5px;
+    color: black;
+}
+
+
+/* end of font general styling */
+
+
+/* begin specific styling */
+
+header {
+    text-align: center;
+    padding: 0px;
+}
+
+main {
+    width: auto;
+}
+
+footer {
+    border: 5px solid black;
+    border-radius: 2px;
+    clear: both;
+}
+
+footer h6 {
+    float: right;
+}
+
+footer a {
+    color: inherit;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: inherit;
+}
+
+img {
+    border: 2px solid black;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+.date {
+    float: right;       
+}
+
+.company {
+    display: inline;
+    font-style: italic;
+}
+
+.button {
+    background-color: rgb(33, 33, 33);
+    color: ghostwhite;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 3px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: lightyellow;
+    color: midnightblue;
+}
+
+#education {
+    
+}
+
+#experience {
+    
+}
+
+#honors {
+    
+}
+/* end of specific styling */
